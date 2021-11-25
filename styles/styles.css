@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.descuento{
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    line-height: 38px;
+    padding-left: 10px;
+}
+.encabezado{
+    width: 100%;
+    height: 101px;
+    background-color: #00669F;
+}
+.encabezado h1{
+    padding: 28px 28px 0px 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+.principal{
+    width: 100%;
+    height: 833px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 20%;
+    height: 669px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: solid 1px #000000;
+}
+.fondo{
+    width: 100%;
+    height: 193px;
+}
+.contenido{
+    width:100%;
+    height: 335px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
